@@ -1,0 +1,7 @@
+.menubar {
+    @apply bg-dark-green h-screen z-50 fixed md:relative;
+}
+
+.menubar_open_close_icon{
+    @apply bg-white text-dark-green text-5xl md:text-3xl border cursor-pointer z-50 border-dark-green rounded-full absolute -right-5 md:-right-3 top-9;
+}
